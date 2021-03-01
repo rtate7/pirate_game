@@ -1,3 +1,6 @@
+# Bob Tate
+# 2/28/2021
+
 from Helpers import clearScreen 
 import random
 from Constants import *

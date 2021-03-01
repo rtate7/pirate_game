@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# Bob Tate
+# 2/28/2021
+
 from Player import Player
 from Chapter1 import Chapter1
 from Helpers import clearScreen 

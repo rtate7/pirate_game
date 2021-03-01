@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+
+# Bob Tate
+# 2/28/2021
+
 import random
 from Constants import *
 
