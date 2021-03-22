@@ -63,19 +63,19 @@ class Chapter5:
         print("You chose Brace")
         self.defense += 5
         print("Enemy firing!")
-        player.takeDamage(CH_FIVE_BAD_GUY_STRENGTH)
+        self.player.takeDamage(CH_FIVE_BAD_GUY_STRENGTH)
 
     def runAway(self):
         print("You chose Run Away")
         print("Enemy firing!")
-        player.takeDamage(CH_FIVE_BAD_GUY_STRENGTH)
+        self.player.takeDamage(CH_FIVE_BAD_GUY_STRENGTH)
         self.complete = true
 
     def plunder(self):
         print("You chose Plunder")
         print("Boarding the enemy vessel!")
-        player.takeBoardingDamage(self.enemyHp)
-        player.plunder(CH_FIVE_PLUNDER_MULTIPLIER)
+        self.player.takeBoardingDamage(self.enemyHp)
+        self.player.plunder(CH_FIVE_PLUNDER_MULTIPLIER)
 
     def checkForChapterComplete(self):
         self.complete = self.enemyHp <= 0
