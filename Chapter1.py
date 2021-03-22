@@ -1,6 +1,8 @@
 # Bob Tate
 # 2/28/2021
 
+# Chapter 1 - This file contains the story elements for the first chapter of the game.
+
 from Helpers import clearScreen 
 import random
 from Constants import *

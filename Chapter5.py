@@ -1,6 +1,8 @@
 # Bob Tate
 # 2/28/2021
 
+# Chapter 5 - This file contains the story elements for the fifth chapter of the game.
+
 from Helpers import clearScreen 
 import random
 from Constants import *

@@ -1,6 +1,8 @@
 # Bob Tate
 # 2/28/2021
 
+# Constants - This file contains the constant values which can be adjusted to "tune" the difficulty of the game.
+
 STARTING_HP = 100
 STARTING_DISTANCE_TO_SHIP = 100
 STARTING_SHIP_ATTACK = 5

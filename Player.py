@@ -3,6 +3,8 @@
 # Bob Tate
 # 2/28/2021
 
+# Player - This file contains the class definition for the player character.
+
 import random
 from Constants import *
 

@@ -3,6 +3,8 @@
 # Bob Tate
 # 2/28/2021
 
+# Main - This file is the starting point of the game.
+
 from Player import Player
 from Chapter1 import Chapter1
 from Helpers import clearScreen 
